@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>Laptop Products</title>
 <link rel="stylesheet" href="../CSS/product.css" type="text/css">
+<link rel="stylesheet" href="../CSS/important.css" type="text/css">
 <script type="text/javascript" src="../JS/product.js"></script>
 <link rel="icon" href="../LAPTOPSHOP/Source/icon.png" type="image/icon type">
 </head>
@@ -21,32 +22,29 @@
         <a href="./contact.html">Contact</a>
       </div>
     
-<h2>Filter DIV Elements</h2>
+     <div class="content">
+      <h2>Filter DIV Elements</h2>
 
-<div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-  <button class="btn" onclick="filterSelection('animals')"> Animals</button>
-  <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
-  <button class="btn" onclick="filterSelection('colors')"> Colors</button>
-</div>
-
-<div class="container">
-  <div class="filterDiv cars">BMW</div>
-  <div class="filterDiv colors fruits">Orange</div>
-  <div class="filterDiv cars">Volvo</div>
-  <div class="filterDiv colors">Red</div>
-  <div class="filterDiv cars animals">Mustang</div>
-  <div class="filterDiv colors">Blue</div>
-  <div class="filterDiv animals">Cat</div>
-  <div class="filterDiv animals">Dog</div>
-  <div class="filterDiv fruits">Melon</div>
-  <div class="filterDiv fruits animals">Kiwi</div>
-  <div class="filterDiv fruits">Banana</div>
-  <div class="filterDiv fruits">Lemon</div>
-  <div class="filterDiv animals">Cow</div>
-</div>
-
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('officeLaptop')"> officeLaptop</button>
+        <button class="btn" onclick="filterSelection('gamingLaptop')"> gamingLaptop</button>
+        <button class="btn" onclick="filterSelection('accessories')"> accessories</button>
+      </div>
+      
+      <div class="container">
+        <div class="filterDiv officeLaptop">Con cajwc</div>
+        <div class="filterDiv officeLaptop">Volvo</div>
+        <div class="filterDiv officeLaptop gamingLaptop">Mustang</div>
+        <div class="filterDiv gamingLaptop">Cat</div>
+        <div class="filterDiv gamingLaptop">Dog</div>
+        <div class="filterDiv accessories">Melon</div>
+        <div class="filterDiv accessories gamingLaptop">Kiwi</div>
+        <div class="filterDiv accessories">Banana</div>
+        <div class="filterDiv accessories">Lemon</div>
+        <div class="filterDiv gamingLaptop">Cow</div>
+      </div>
+      </div>
 </body>
 <footer>
     <h3>Trường đại học Công Nghiệp Thực Phẩm Thành Phố Hồ Chí Minh</h3>
