@@ -8,15 +8,7 @@
         margin-right: 50px;
         border: 1px solid black;
     }
-.nav {
-  list-style-type: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  float: left;
-  color: rgb(255, 255, 255);
-  clear: left;
-}
+
 a:link {
     color: rgb(114, 113, 113);
     background-color: transparent;
@@ -40,30 +32,42 @@ a:link {
     background-color: transparent;
     text-decoration: none;
   }
-.nav li {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  .nav {
+    float: right;
+    width: auto;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    clear: both;
+    color: rgb(255, 255, 255);
+    /*border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+
+  }
+.nav li {    
     font-family: Inter;
     color: #222121;
     background: rgb(255, 255, 255);
-  display: inline-block;
-  border: 1px solid white;
-  font-size: 35px;
-  padding: 20px;
-  border-radius: 40px;
-margin-left: 30px;
-  margin-top: 20px;
+    display: inline-block;
+    font-size: 35px;
+    padding: 20px;
+    border-radius: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 img {
     margin-top: auto;   
+    position: fixed;
 }
 @font-face {
     font-family: Inter;
     src: url(../Font/Inter-Bold.ttf)
 }
 @keyframes example {
-  0%   {background-color:rgb(255, 255, 255); left:1000px; top:0px;}
-  50% {background-color:rgb(255, 255, 255); left:500px; top:0px;}
-  100% {background-color:rgb(255, 255, 255); left:0px; top:0px;}
+  0%   { left:0px; top:0px;}
+  50% { left:300px; top:0px;}
+  100% {left:0px; top:0px;}
   
 }
 footer
@@ -79,15 +83,15 @@ footer
 {
     position: relative;
     animation-name: example;
-    animation-duration:4s;
+    animation-duration:2s;
     animation-direction: reverse; 
     margin: auto;
 }
 .shopnow_button
 {
     text-align: center;
-    margin:auto;
-    width: 250px;
+    margin: auto;
+    width: 300px;
     clear: both;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-family: Inter;
