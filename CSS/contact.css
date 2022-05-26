@@ -1,45 +1,4 @@
 
-.rightMenu{
-
-    color: #E5E5E5;
-    font-size: 30px;
-    float: right;
-    width: 30%;
-    margin-right: 50px;
-    border: 1px solid black;
-}
-
-a:link {
-color: rgb(114, 113, 113);
-background-color: transparent;
-text-decoration: none;
-}
-
-a:visited {
-color: rgb(114, 113, 113);
-background-color: transparent;
-text-decoration: none;
-}
-
-a:hover {
-/* color: rgb(114, 113, 113);
-background-color: transparent;
-text-decoration:none;
-*/
-color: white;
-
-}
-
-a:active {
-color: rgb(114, 113, 113);
-background-color: transparent;
-text-decoration: none;
-}
-body {
-font-family: Arial, Helvetica, sans-serif;
-margin: 0;
-}
-
 .navbar {
 overflow: hidden;
 background-color: #333; 
@@ -98,20 +57,12 @@ color: black;
 .subnav:hover .subnav-content {
 display: block;
 }
-img {
-margin-top: auto;   
-position: fixed;
-}
+
 @font-face {
 font-family: Inter;
 src: url(../Font/Inter-Medium.ttf)
 }
-@keyframes example {
-0%   { left:0px; top:0px;}
-50% { left:300px; top:0px;}
-100% {left:0px; top:0px;}
 
-}
 footer
 {
 clear: both;
@@ -121,35 +72,81 @@ font-family: Inter;
 src:url(../Font/Inter-Light.ttf)
 
 }
-#laptopBG
-{
-position: relative;
-animation-name: example;
-animation-duration:2s;
-animation-direction: reverse; 
-margin: auto;
-}
-.shopnow_button
-{
-text-align: center;
-margin: auto;
-width: 300px;
-clear: both;
-padding: 20px;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-font-family: Inter;
-background: rgb(255, 255, 255);
-border: 1px solid white;
-font-size: 35px;
-border-radius: 40px;
-
-}
-.shopnow_button:hover {
-background-color: #333;
-color: white;
-}
-.shopnow_button a :hover{
-color: rgb(0, 0, 0);
-background-color: transparent;
-text-decoration: none;
-}
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  a:link {
+    color: rgb(114, 113, 113);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(114, 113, 113);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+   /* color: rgb(114, 113, 113);
+    background-color: transparent;
+    text-decoration:none;
+   */
+   color: white;
+   
+  }
+  
+  a:active {
+    color: rgb(114, 113, 113);
+    background-color: transparent;
+    text-decoration: none;
+  }
