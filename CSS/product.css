@@ -39,8 +39,13 @@
   }
   
   .btn.active {
+    background-color: #ddd;
+    
+  }
+
+  .btn:active {
     background-color: #666;
-    color: white;
+    color: #666;
   }
   h4{
     color: black;

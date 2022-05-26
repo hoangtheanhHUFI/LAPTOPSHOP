@@ -27,6 +27,7 @@ a:link {
   .navbar {
     overflow: hidden;
     background-color: #333; 
+    cursor: pointer;
   }
   
   .navbar a {
@@ -52,6 +53,7 @@ a:link {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    cursor: pointer;
   }
   
   .navbar a:hover, .subnav:hover .subnavbtn {
