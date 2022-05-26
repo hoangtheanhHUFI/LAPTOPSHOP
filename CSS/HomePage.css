@@ -26,9 +26,8 @@ a:link {
     background-color: transparent;
     text-decoration:none;
    */
-   background-color: #7f807f;
    color: white;
-   border-radius: 10px;
+   
   }
   
   a:active {
@@ -72,14 +71,15 @@ a:link {
   }
   
   .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: red;
+    background-color: rgb(255, 255, 255);
+    color: black;
   }
   
   .subnav-content {
     display: none;
     position: absolute;
     left: 0;
-    background-color: red;
+    background-color: #333;
     width: 100%;
     z-index: 1;
   }
@@ -138,7 +138,6 @@ footer
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-family: Inter;
-    color: #222121;
     background: rgb(255, 255, 255);
     border: 1px solid white;
     font-size: 35px;
@@ -146,6 +145,11 @@ footer
 
 }
 .shopnow_button:hover {
-  background-color: #7f807f;
+  background-color: #333;
   color: white;
+}
+.shopnow_button a :hover{
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
 }
