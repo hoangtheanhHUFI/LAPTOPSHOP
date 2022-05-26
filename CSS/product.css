@@ -1,9 +1,10 @@
+
 .filterDiv {
     float: left;
-    background-color: #2196F3;
-    color: #ffffff;
-    width: 100px;
-    line-height: 100px;
+    background-color: transparent;
+    color: #000000;
+    width: 300px;
+    line-height: 20px;
     text-align: center;
     margin: 2px;
     display: none;
